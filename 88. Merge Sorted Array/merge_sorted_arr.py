@@ -1,5 +1,5 @@
 class Solution:
-    def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
+    def merge(nums1, m, nums2, n):
         n = len(nums1) - m
 
         for i in range(n):
