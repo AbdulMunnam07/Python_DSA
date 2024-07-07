@@ -1,5 +1,5 @@
 class Solution:
-    def uniqueOccurrences(selarr):
+    def uniqueOccurrences(arr):
         dict = {}
 
         for i in range(len(arr)):
