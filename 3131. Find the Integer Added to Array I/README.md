@@ -30,6 +30,4 @@ Return the integer `x`.
 - `0 <= nums1[i], nums2[i] <= 1000`
 - The test cases are generated in a way that there is an integer `x` such that `nums1` can become equal to `nums2` by adding `x` to each element of `nums1`.
 
-## Notes
 
-The task requires determining the integer `x` that, when added to each element of `nums1`, results in `nums1` becoming equal to `nums2`. The solution must ensure that both arrays contain the same integers with the same frequencies after the transformation.
