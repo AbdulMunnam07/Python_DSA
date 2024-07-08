@@ -1,5 +1,5 @@
 class Solution:
-    def addedInteger(self, nums1: List[int], nums2: List[int]) -> int:
+    def addedInteger(nums1, nums2):
         arr1 = min(nums1)
         arr2 = min(nums2)
         x = arr2 - arr1
