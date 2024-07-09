@@ -1,5 +1,5 @@
 class Solution:
-    def peakIndexInMountainArray(self, arr: List[int]) -> int:
+    def peakIndexInMountainArray(arr):
         res = max(arr)
 
         for i in range(len(arr)):
