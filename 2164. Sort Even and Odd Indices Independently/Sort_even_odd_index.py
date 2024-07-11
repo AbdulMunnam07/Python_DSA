@@ -1,5 +1,5 @@
 class Solution:
-    def sortEvenOdd(self, nums: List[int]) -> List[int]:
+    def sortEvenOdd(nums):
         odd,even = [],[]
         for i in range(len(nums)):
             if i % 2 ==0:
