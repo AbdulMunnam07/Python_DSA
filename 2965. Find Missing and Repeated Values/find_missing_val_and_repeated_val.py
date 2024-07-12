@@ -11,7 +11,6 @@ class Solution:
                 ans.append(i)
                 break
 
-        print(ans)
 
         n = len(grid)**2
         for i in range(1, n + 1):
