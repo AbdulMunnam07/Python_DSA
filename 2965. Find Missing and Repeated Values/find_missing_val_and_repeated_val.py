@@ -1,5 +1,5 @@
 class Solution:
-    def findMissingAndRepeatedValues(self, grid: List[List[int]]) -> List[int]:
+    def findMissingAndRepeatedValues(self, grid):
         arr = []
         for i in grid:
             for j in i:
