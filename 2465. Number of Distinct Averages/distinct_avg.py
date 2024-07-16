@@ -1,5 +1,5 @@
 class Solution:
-    def distinctAverages(self, nums: List[int]) -> int:
+    def distinctAverages(nums):
         a=[]
         for i in range(len(nums)//2):
             a.append((max(nums)+min(nums))/2)
