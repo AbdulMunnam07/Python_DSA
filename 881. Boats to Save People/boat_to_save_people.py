@@ -1,5 +1,5 @@
 class Solution:
-    def numRescueBoats(self, people: List[int], limit: int) -> int:
+    def numRescueBoats(people, limit):
         people.sort()
         left, right, count = 0, len(people) - 1, 0
 
