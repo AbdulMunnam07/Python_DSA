@@ -1,5 +1,5 @@
 class Solution:
-    def calPoints(self, operations: List[str]) -> int:
+    def calPoints(operations):
         record = []
         if len(operations) == 0:
             return 0
