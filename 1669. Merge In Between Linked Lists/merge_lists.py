@@ -4,7 +4,7 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def mergeInBetween(self, list1: ListNode, a: int, b: int, list2: ListNode) -> ListNode:
+    def mergeInBetween(list1, a, b, list2):
         curr = list1
         i = 0
         while i < a - 1:
