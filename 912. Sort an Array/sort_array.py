@@ -1,5 +1,5 @@
 class Solution:
-    def sortArray(self, nums: List[int]) -> List[int]:
+    def sortArray(nums):
         if not nums:
             return nums
         max_val, min_val = max(nums), min(nums)
