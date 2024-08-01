@@ -1,5 +1,5 @@
 class Solution:
-    def countSeniors(self, details: List[str]) -> int:
+    def countSeniors(details):
         count = 0
 
         for i in details:
