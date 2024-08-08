@@ -1,5 +1,5 @@
 class Solution:
-    def evalRPN(self, tokens: List[str]) -> int:
+    def evalRPN(self, tokens):
         stack = []
         for n in tokens:
             if n == "+":
