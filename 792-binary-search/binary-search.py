@@ -7,15 +7,9 @@ class Solution:
             mid = (left + right) // 2
             if nums[mid] == target:
                 return mid
-            elif nums[mid] < target:
+            elif nums[mid] > target:
+                right = mid - 1 
+            else:
                 left = mid + 1
-            else: # nums[mid] < target
-                right = mid - 1
 
         return -1
-
-
-
-        
-
-
