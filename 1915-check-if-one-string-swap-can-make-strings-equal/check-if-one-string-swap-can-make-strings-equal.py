@@ -1,9 +1,8 @@
 class Solution:
     def areAlmostEqual(self, s1: str, s2: str) -> bool:
-            # If the strings are already equal, no swap is needed.
+        # If the strings are already equal, no swap is needed.
         if s1 == s2:
             return True
-
         # Find the indices where s1 and s2 differ.
         diff = []
         for i in range(len(s1)):
